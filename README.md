@@ -2,6 +2,8 @@
 
 I'm a self-taught, project-driven builder working toward becoming an AI & Machine Learning engineer — learning by shipping real, working tools rather than following a fixed curriculum. Currently a student, building outside of that on my own track.
 
+Additionally I like to apply my ML and coding skills into finance and trading creating helpfull tools that can benefit a lot investors and traders.
+
 I like taking an idea from "does anyone actually need this" through to a live, tested product — not just a prototype.
 
 ## What I'm building
