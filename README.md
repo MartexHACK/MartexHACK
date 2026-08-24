@@ -10,7 +10,10 @@ I build small, focused tools that solve one real problem well, usually with an A
 
 **Live projects:**
 - 🧾 **[Late-Payment Chaser](https://github.com/MartexHACK/late-payment-chaser)** — calculates statutory late-payment interest (EU/UK) that freelancers are legally owed on overdue invoices, with every rate cited to its source and no AI anywhere near the arithmetic.
+
 - 🧾 **[Personal Trading bot (Quantative Research and back-testing)](https://github.com/MartexHACK/trading-bot)** — professional-grade algorithmic trading research platform for crypto markets, built incrementally, hypothesis-first, with statistical validation at every gate. Infrastructure rigorous enough to distinguish a real trading edge from noise — and to say "no edge found" honestly when that's the answer, after figuring out working tested hypothesis then proceeds to paper trading with perfectly running dashboard updating every day at 8:10 PM EST with AI recaps, analysis, action buttons, graph, and more.
+
+- 🧾 **[Stocks Market Calendar](https://github.com/MartexHACK/market-calendar)** — One day-by-day calendar of everything that could move US stocks: macro releases and index-constituent earnings, merged into a single ranked list. Merging US macro releases (FRED) and S&P 500 / Nasdaq-100 earnings (NASDAQ), ranked by impact.
 
 
 More tools are in progress — I'm working through a pipeline of ideas across trading analytics, freelancer tooling, and small business utilities, shipping them one at a time rather than all at once.
