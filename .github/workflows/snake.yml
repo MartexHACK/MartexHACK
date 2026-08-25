@@ -21,6 +21,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Must run before Platane/snk: that action runs in Docker as root and
+      # creates dist/ root-owned, which makes later writes fail with EACCES.
+      - name: Generate stat cards
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/cards.mjs
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
@@ -28,12 +36,6 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
-
-      - name: Generate stat cards
-        env:
-          GH_USER: ${{ github.repository_owner }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/cards.mjs
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
