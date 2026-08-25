@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Hi%2C+I'm+Martex+%F0%9F%91%8B;AI+%26+Machine+Learning+engineer+in+progress;Applying+ML+to+finance%2C+trading+and+quant;I+ship+small+tools+that+actually+get+used" alt="Intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&height=45&lines=Hi%2C+I'm+Martex+%F0%9F%91%8B;AI+%26+Machine+Learning+engineer+in+progress;Applying+ML+to+finance%2C+trading+and+quant;I+ship+small+tools+that+actually+get+used" alt="Intro" />
 
 <p>
 <img src="https://img.shields.io/badge/Focus-AI%20%2F%20ML%20Engineering-58A6FF?style=for-the-badge&labelColor=0D1117" alt="Focus" />
@@ -24,27 +24,22 @@ I like applying ML and coding skills to **finance, trading and quant** concepts 
 
 I like taking an idea from *"does anyone actually need this"* through to a live, tested product — not just a prototype.
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/highlights.svg" alt="Highlights" />
+</div>
+
 ---
 
 ## 🚀 What I'm building
 
 I build small, focused tools that solve one real problem well, usually with an AI-assisted development workflow (Claude Code) and a strong bias toward **getting things correct before getting them polished**.
 
-<div align="center">
-<a href="https://github.com/MartexHACK/trading-bot"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MartexHACK&repo=trading-bot&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950" alt="trading-bot" /></a>
-<a href="https://github.com/MartexHACK/market-calendar"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MartexHACK&repo=market-calendar&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950" alt="market-calendar" /></a>
-<br/>
-<a href="https://github.com/MartexHACK/late-payment-chaser"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MartexHACK&repo=late-payment-chaser&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950" alt="late-payment-chaser" /></a>
-<a href="https://github.com/MartexHACK/dev-journal"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=MartexHACK&repo=dev-journal&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950" alt="dev-journal" /></a>
-</div>
-
-- 📈 **[Personal Trading Bot](https://github.com/MartexHACK/trading-bot)** — professional-grade algorithmic trading research platform for crypto markets, built incrementally and hypothesis-first, with statistical validation at every gate. Rigorous enough to distinguish a real edge from noise — and to say *"no edge found"* honestly when that's the answer. Runs through to paper trading with a dashboard that updates daily at 8:10 PM EST with AI recaps, analysis, action buttons and graphs.
-
-- 🗓️ **[Stock Market Calendar](https://github.com/MartexHACK/market-calendar)** — a day-by-day calendar of everything that could move US stocks. Merges US macro releases (FRED) with S&P 500 / Nasdaq-100 earnings (NASDAQ) into a single list ranked by impact.
-
-- 🧾 **[Late-Payment Chaser](https://github.com/MartexHACK/late-payment-chaser)** — calculates the statutory late-payment interest (EU/UK) freelancers are legally owed on overdue invoices, with every rate cited to its source and no AI anywhere near the arithmetic.
-
-- 📓 **[Dev Journal](https://github.com/MartexHACK/dev-journal)** — running notes on ML, quant research and engineering practice.
+| Project | What it does | |
+|---|---|---|
+| 📈 **[trading-bot](https://github.com/MartexHACK/trading-bot)** | Algorithmic trading research platform for crypto — hypothesis-first, statistically validated at every gate, through to paper trading with a daily dashboard | <img src="https://img.shields.io/github/stars/MartexHACK/trading-bot?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 🗓️ **[market-calendar](https://github.com/MartexHACK/market-calendar)** | Day-by-day calendar of everything that could move US stocks — FRED macro releases + S&P 500 / Nasdaq-100 earnings, ranked by impact | <img src="https://img.shields.io/github/stars/MartexHACK/market-calendar?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 🧾 **[late-payment-chaser](https://github.com/MartexHACK/late-payment-chaser)** | Statutory late-payment interest (EU/UK) freelancers are legally owed on overdue invoices — every rate cited, no AI near the arithmetic | <img src="https://img.shields.io/github/stars/MartexHACK/late-payment-chaser?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 📓 **[dev-journal](https://github.com/MartexHACK/dev-journal)** | Running notes on ML, quant research and engineering practice | <img src="https://img.shields.io/github/stars/MartexHACK/dev-journal?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
 
 > More tools are in progress — a pipeline of ideas across trading analytics, freelancer tooling and small-business utilities, shipped one at a time rather than all at once.
 
@@ -90,8 +85,8 @@ I build small, focused tools that solve one real problem well, usually with an A
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=MartexHACK&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&icon_color=3FB950&text_color=C9D1D9" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MartexHACK&layout=compact&langs_count=8&hide_border=true&theme=github_dark&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top languages" />
+<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/stats.svg" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/langs.svg" alt="Most used languages" />
 
 <br/><br/>
 
@@ -99,11 +94,13 @@ I build small, focused tools that solve one real problem well, usually with an A
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=MartexHACK&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
+<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/contrib.svg" alt="Contribution activity" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MartexHACK&bg_color=0D1117&color=58A6FF&line=3FB950&point=C9D1D9&area=true&hide_border=true" alt="Activity graph" />
+<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/github-snake-dark.svg" alt="Contribution snake" />
+
+<sub>Stat cards above are generated from live GitHub data by a <a href="https://github.com/MartexHACK/MartexHACK/blob/main/.github/workflows/snake.yml">scheduled workflow</a> in this repo — no third-party image services, so nothing here can break when someone else's server goes down.</sub>
 
 </div>
 
@@ -116,8 +113,6 @@ AI engineering fundamentals · advanced machine learning (neural network archite
 ---
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/github-snake-dark.svg" alt="Contribution snake" />
 
 📫 **Find my latest work pinned above, or browse my repos** — most are small, scoped, and built to actually be used.
 
