@@ -8,9 +8,9 @@
 <img src="https://img.shields.io/badge/Style-Ship%20an%20honest%20v1-D29922?style=for-the-badge&labelColor=0D1117" alt="Style" />
 </p>
 
-<a href="https://github.com/MartexHACK?tab=followers"><img src="https://img.shields.io/github/followers/MartexHACK?style=flat-square&logo=github&logoColor=white&label=Followers&labelColor=0D1117&color=58A6FF" alt="Followers" /></a>
-<a href="https://github.com/MartexHACK?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMartexHACK&query=%24.public_repos&style=flat-square&logo=github&logoColor=white&label=Repos&labelColor=0D1117&color=3FB950" alt="Repos" /></a>
-<img src="https://komarev.com/ghpvc/?username=MartexHACK&style=flat-square&label=Profile+views&color=58A6FF" alt="Profile views" />
+<a href="https://github.com/martex-dev?tab=followers"><img src="https://img.shields.io/github/followers/martex-dev?style=flat-square&logo=github&logoColor=white&label=Followers&labelColor=0D1117&color=58A6FF" alt="Followers" /></a>
+<a href="https://github.com/martex-dev?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmartex-dev&query=%24.public_repos&style=flat-square&logo=github&logoColor=white&label=Repos&labelColor=0D1117&color=3FB950" alt="Repos" /></a>
+<img src="https://komarev.com/ghpvc/?username=martex-dev&style=flat-square&label=Profile+views&color=58A6FF" alt="Profile views" />
 
 </div>
 
@@ -25,7 +25,7 @@ I like applying ML and coding skills to **finance, trading and quant** concepts 
 I like taking an idea from *"does anyone actually need this"* through to a live, tested product — not just a prototype.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/highlights.svg" alt="Highlights" />
+<img src="https://raw.githubusercontent.com/martex-dev/martex-dev/output/highlights.svg" alt="Highlights" />
 </div>
 
 ---
@@ -36,12 +36,12 @@ I build small, focused tools that solve one real problem well, usually with an A
 
 | Project | What it does | |
 |---|---|---|
-| 🔎 **[timeleak](https://github.com/MartexHACK/timeleak)** | Static linter that catches data leakage in time-series ML code — scaler fitted before the split, centred windows, backward fill. Zero dependencies, runs in pre-commit | <img src="https://img.shields.io/github/stars/MartexHACK/timeleak?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 📊 **[implied-move](https://github.com/MartexHACK/implied-move)** | Options-implied expected move before earnings. Separates the mean absolute move from a true 1σ, which most calculators conflate | <img src="https://img.shields.io/github/stars/MartexHACK/implied-move?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 📈 **[martex-quant](https://github.com/MartexHACK/martex-quant)** | Algorithmic trading research platform for crypto — 125 pre-registered trials, deflated-Sharpe validation, and a permanent ledger of everything that failed. `pip install martex-quant` | <img src="https://img.shields.io/github/stars/MartexHACK/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 🗓️ **[market-calendar](https://github.com/MartexHACK/market-calendar)** | Day-by-day calendar of everything that could move US stocks — FRED macro releases + S&P 500 / Nasdaq-100 earnings, ranked by impact | <img src="https://img.shields.io/github/stars/MartexHACK/market-calendar?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 🧾 **[late-payment-chaser](https://github.com/MartexHACK/late-payment-chaser)** | Statutory late-payment interest (EU/UK) freelancers are legally owed on overdue invoices — every rate cited, no AI near the arithmetic | <img src="https://img.shields.io/github/stars/MartexHACK/late-payment-chaser?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 📓 **[dev-journal](https://github.com/MartexHACK/dev-journal)** | Running notes on ML, quant research and engineering practice | <img src="https://img.shields.io/github/stars/MartexHACK/dev-journal?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 🔎 **[timeleak](https://github.com/martex-dev/timeleak)** | Static linter that catches data leakage in time-series ML code — scaler fitted before the split, centred windows, backward fill. Zero dependencies, runs in pre-commit | <img src="https://img.shields.io/github/stars/martex-dev/timeleak?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 📊 **[implied-move](https://github.com/martex-dev/implied-move)** | Options-implied expected move before earnings. Separates the mean absolute move from a true 1σ, which most calculators conflate | <img src="https://img.shields.io/github/stars/martex-dev/implied-move?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 📈 **[martex-quant](https://github.com/martex-dev/martex-quant)** | Algorithmic trading research platform for crypto — 125 pre-registered trials, deflated-Sharpe validation, and a permanent ledger of everything that failed. `pip install martex-quant` | <img src="https://img.shields.io/github/stars/martex-dev/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 🗓️ **[market-calendar](https://github.com/martex-dev/market-calendar)** | Day-by-day calendar of everything that could move US stocks — FRED macro releases + S&P 500 / Nasdaq-100 earnings, ranked by impact | <img src="https://img.shields.io/github/stars/martex-dev/market-calendar?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 🧾 **[late-payment-chaser](https://github.com/martex-dev/late-payment-chaser)** | Statutory late-payment interest (EU/UK) freelancers are legally owed on overdue invoices — every rate cited, no AI near the arithmetic | <img src="https://img.shields.io/github/stars/martex-dev/late-payment-chaser?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| 📓 **[dev-journal](https://github.com/martex-dev/dev-journal)** | Running notes on ML, quant research and engineering practice | <img src="https://img.shields.io/github/stars/martex-dev/dev-journal?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
 
 > More tools are in progress — a pipeline of ideas across trading analytics, freelancer tooling and small-business utilities, shipped one at a time rather than all at once.
 
@@ -87,22 +87,22 @@ I build small, focused tools that solve one real problem well, usually with an A
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/stats.svg" alt="GitHub stats" />
-<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/langs.svg" alt="Most used languages" />
+<img src="https://raw.githubusercontent.com/martex-dev/martex-dev/output/stats.svg" alt="GitHub stats" />
+<img src="https://raw.githubusercontent.com/martex-dev/martex-dev/output/langs.svg" alt="Most used languages" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=MartexHACK&hide_border=true&theme=github-dark-blue&background=0D1117&ring=58A6FF&fire=D29922&currStreakLabel=58A6FF" alt="Streak" />
+<img src="https://streak-stats.demolab.com?user=martex-dev&hide_border=true&theme=github-dark-blue&background=0D1117&ring=58A6FF&fire=D29922&currStreakLabel=58A6FF" alt="Streak" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/contrib.svg" alt="Contribution activity" />
+<img src="https://raw.githubusercontent.com/martex-dev/martex-dev/output/contrib.svg" alt="Contribution activity" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/MartexHACK/MartexHACK/output/github-snake-dark.svg" alt="Contribution snake" />
+<img src="https://raw.githubusercontent.com/martex-dev/martex-dev/output/github-snake-dark.svg" alt="Contribution snake" />
 
-<sub>Stat cards above are generated from live GitHub data by a <a href="https://github.com/MartexHACK/MartexHACK/blob/main/.github/workflows/snake.yml">scheduled workflow</a> in this repo — no third-party image services, so nothing here can break when someone else's server goes down.</sub>
+<sub>Stat cards above are generated from live GitHub data by a <a href="https://github.com/martex-dev/martex-dev/blob/main/.github/workflows/snake.yml">scheduled workflow</a> in this repo — no third-party image services, so nothing here can break when someone else's server goes down.</sub>
 
 </div>
 
