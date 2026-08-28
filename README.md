@@ -32,18 +32,57 @@ I like taking an idea from *"does anyone actually need this"* through to a live,
 
 ## 🚀 What I'm building
 
-I build small, focused tools that solve one real problem well, usually with an AI-assisted development workflow (Claude Code) and a strong bias toward **getting things correct before getting them polished**.
+I build tools that solve one real problem well and are honest about their own limits — usually with an AI-assisted workflow (Claude Code) and a bias toward **getting things correct before getting them polished**.
 
-| Project | What it does | |
+Work is grouped below by the problem it belongs to. A category appears here once something is shipped in it.
+
+<br/>
+
+### ◆ Flagship
+
+<sub>Long-running systems built to production standards rather than demo standards — the ones worth reading the source of.</sub>
+
+**[martex-quant](https://github.com/martex-dev/martex-quant)** — quantitative research platform for crypto &nbsp;<img src="https://img.shields.io/github/stars/martex-dev/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" align="center" />
+
+125 pre-registered trials across 120 hypotheses, walk-forward backtesting with realistic fees, deflated-Sharpe validation, Monte Carlo against prop-firm rule sets, paper trading, and an operations dashboard. It says plainly on the tin that it is not a profitable trading bot — **the permanent ledger of every hypothesis that failed is the product**, and the tooling exists to produce more of it.
+
+<sub>`Python` · `Polars` · `ccxt` · `pydantic` — 184 commits · MIT · CI green</sub>
+
+<br/>
+
+### 📈 Quantitative Finance & Trading
+
+<sub>Market structure, options pricing, and the calendar of things that actually move prices.</sub>
+
+| Project | What it does | Stack |
 |---|---|---|
-| 🔎 **[timeleak](https://github.com/martex-dev/timeleak)** | Static linter that catches data leakage in time-series ML code — scaler fitted before the split, centred windows, backward fill. Zero dependencies, runs in pre-commit | <img src="https://img.shields.io/github/stars/martex-dev/timeleak?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 📊 **[implied-move](https://github.com/martex-dev/implied-move)** | Options-implied expected move before earnings. Separates the mean absolute move from a true 1σ, which most calculators conflate | <img src="https://img.shields.io/github/stars/martex-dev/implied-move?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 📈 **[martex-quant](https://github.com/martex-dev/martex-quant)** | Algorithmic trading research platform for crypto — 125 pre-registered trials, deflated-Sharpe validation, and a permanent ledger of everything that failed. `pip install martex-quant` | <img src="https://img.shields.io/github/stars/martex-dev/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 🗓️ **[market-calendar](https://github.com/martex-dev/market-calendar)** | Day-by-day calendar of everything that could move US stocks — FRED macro releases + S&P 500 / Nasdaq-100 earnings, ranked by impact | <img src="https://img.shields.io/github/stars/martex-dev/market-calendar?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 🧾 **[late-payment-chaser](https://github.com/martex-dev/late-payment-chaser)** | Statutory late-payment interest (EU/UK) freelancers are legally owed on overdue invoices — every rate cited, no AI near the arithmetic | <img src="https://img.shields.io/github/stars/martex-dev/late-payment-chaser?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
-| 📓 **[dev-journal](https://github.com/martex-dev/dev-journal)** | Running notes on ML, quant research and engineering practice | <img src="https://img.shields.io/github/stars/martex-dev/dev-journal?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" /> |
+| **[implied-move](https://github.com/martex-dev/implied-move)** · [live ↗](https://implied-move.vercel.app) | Options-implied expected move before earnings. Separates the mean absolute move from a true 1σ, which most calculators quietly conflate — a ~20% understatement of the real band | Next.js · TypeScript |
+| **[market-calendar](https://github.com/martex-dev/market-calendar)** · [live ↗](https://market-calendar-three.vercel.app) | Day-by-day calendar of everything that could move US stocks — FRED macro releases and S&P 500 / Nasdaq-100 earnings, merged into one list ranked by impact | Next.js · TypeScript · Turso |
 
-> More tools are in progress — a pipeline of ideas across trading analytics, freelancer tooling and small-business utilities, shipped one at a time rather than all at once.
+<br/>
+
+### 🧠 Machine Learning & Data Science
+
+<sub>Making models fail honestly in testing instead of expensively in production.</sub>
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[timeleak](https://github.com/martex-dev/timeleak)** — `pip install timeleak` | Static linter that catches data leakage in time-series ML code: scalers fitted before the split, centred windows, backward fill, shuffled splits. Seven rules, zero dependencies, runs as a pre-commit hook | Python · `ast` |
+
+<br/>
+
+### 🛡️ Consumer & Small-Business Tools
+
+<sub>Putting an expert-level answer in the hands of someone who shouldn't have to be an expert.</sub>
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[late-payment-chaser](https://github.com/martex-dev/late-payment-chaser)** · [live ↗](https://late-payment-chaser.vercel.app) | Statutory late-payment interest UK and EU freelancers are legally owed on overdue invoices. Every rate cited to the central bank's own table, all money in integer minor units, and no model anywhere near the arithmetic | Next.js · TypeScript |
+| **ScamLens** <sub>· in development</sub> | Scans a message and rates how likely it is to be a scam — reporting the specific signals behind the score rather than handing back a bare verdict | — |
+
+<br/>
+
+<sub>Also: <a href="https://github.com/martex-dev/dev-journal">dev-journal</a> — running notes on ML, quant research and engineering practice.</sub>
 
 ---
 
