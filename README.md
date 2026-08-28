@@ -10,7 +10,7 @@
 
 <a href="https://github.com/martex-dev?tab=followers"><img src="https://img.shields.io/github/followers/martex-dev?style=flat-square&logo=github&logoColor=white&label=Followers&labelColor=0D1117&color=58A6FF" alt="Followers" /></a>
 <a href="https://github.com/martex-dev?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fmartex-dev&query=%24.public_repos&style=flat-square&logo=github&logoColor=white&label=Repos&labelColor=0D1117&color=3FB950" alt="Repos" /></a>
-<img src="https://komarev.com/ghpvc/?username=martex-dev&style=flat-square&label=Profile+views&color=58A6FF" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=martex-dev&style=flat-square&label=Profile+views&color=0D1117" alt="Profile views" />
 
 </div>
 
