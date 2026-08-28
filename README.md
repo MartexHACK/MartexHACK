@@ -63,12 +63,15 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 ### 🧠 Machine Learning & Data Science
 
-<sub>Making models fail honestly in testing instead of expensively in production.</sub>
+<sub>Making models fail honestly in testing instead of expensively in production. These five compose: find leaks statically, catch what static analysis can't at runtime, split correctly, see the split, then trust what comes out.</sub>
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[timeleak](https://github.com/martex-dev/timeleak)** — `pip install timeleak` | Static linter that catches data leakage in time-series ML code: scalers fitted before the split, centred windows, backward fill, shuffled splits. Seven rules, zero dependencies, runs as a pre-commit hook | Python · `ast` |
-| **[cv-visualizer](https://github.com/martex-dev/cv-visualizer)** —  | Renders time-series CV fold boundaries (train/test/purge/embargo) as a diagram, for any sklearn-compatible splitter. | Python · `KFold` |
+| **[timeleak](https://github.com/martex-dev/timeleak)** — `pip install timeleak` | Static linter for data leakage in time-series ML code: scalers fitted before the split, centred windows, backward fill, shuffled splits. Seven rules, zero dependencies, runs as a pre-commit hook | Python · `ast` |
+| **[leakguard](https://github.com/martex-dev/leakguard)** | The runtime half — raises at `fit()` when a transformer was fitted on rows outside the current fold, a leak class no static analysis can see. Its demo scores **0.731 on 2000 columns of pure noise** where the honest answer is 0.500 | Python · scikit-learn · pandas |
+| **[purged-cv](https://github.com/martex-dev/purged-cv)** | Sklearn-compatible purged k-fold with an embargo, for labels whose outcome windows overlap. Shows that *not shuffling is not enough*: contiguous folds still score 0.781 on noise, purging brings it to 0.503 | Python · scikit-learn · NumPy |
+| **[cv-visualizer](https://github.com/martex-dev/cv-visualizer)** | Renders train / test / purge / embargo boundaries as a diagram for any sklearn splitter — so leakage is something you can see rather than something a test asserts | Python · Matplotlib |
+| **[calibrate](https://github.com/martex-dev/calibrate)** | Reliability diagrams, ECE / MCE / Brier, Platt scaling and isotonic regression. Makes you *state* what a risk band promises rather than inferring one, because an uncalibrated "high" is worse than no score | Python · scikit-learn · Matplotlib |
 
 <br/>
 
