@@ -67,8 +67,8 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[timeleak](https://github.com/martex-dev/timeleak)** —  | Static linter that catches data leakage in time-series ML code: scalers fitted before the split, centred windows, backward fill, shuffled splits. Seven rules, zero dependencies, runs as a pre-commit hook | Python · `ast` |
-| **[cv-visualizer](https://github.com/martex-dev/cv-visualizer)** — `pip install timeleak` | Renders time-series CV fold boundaries (train/test/purge/embargo) as a diagram, for any sklearn-compatible splitter. | Python · `ast` |
+| **[timeleak](https://github.com/martex-dev/timeleak)** — `pip install timeleak` | Static linter that catches data leakage in time-series ML code: scalers fitted before the split, centred windows, backward fill, shuffled splits. Seven rules, zero dependencies, runs as a pre-commit hook | Python · `ast` |
+| **[cv-visualizer](https://github.com/martex-dev/cv-visualizer)** —  | Renders time-series CV fold boundaries (train/test/purge/embargo) as a diagram, for any sklearn-compatible splitter. | Python · `KFold` |
 
 <br/>
 
