@@ -56,6 +56,7 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[factor-exposure](https://github.com/martex-dev/factor-exposure)** | Regresses a portfolio's monthly excess returns on the five Fama-French factors plus momentum, to answer whether performance is alpha or just cheaply-bought beta. Every loading carries its standard error, t-statistic and 95% interval — a tilt that can't be told apart from zero is drawn hatched rather than reported as a small one, and a low R² is presented as a finding rather than hidden | Python · FastAPI · statsmodels · React |
 | **[implied-move](https://github.com/martex-dev/implied-move)** · [live ↗](https://implied-move.vercel.app) | Options-implied expected move before earnings. Separates the mean absolute move from a true 1σ, which most calculators quietly conflate — a ~20% understatement of the real band | Next.js · TypeScript |
 | **[market-calendar](https://github.com/martex-dev/market-calendar)** · [live ↗](https://market-calendar-three.vercel.app) | Day-by-day calendar of everything that could move US stocks — FRED macro releases and S&P 500 / Nasdaq-100 earnings, merged into one list ranked by impact | Next.js · TypeScript · Turso |
 
@@ -121,6 +122,7 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white)
 ![Apache Arrow](https://img.shields.io/badge/Apache%20Arrow-1A6AFF?style=for-the-badge&logo=apachearrow&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![statsmodels](https://img.shields.io/badge/statsmodels-4051B5?style=for-the-badge&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
@@ -130,6 +132,8 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Turso](https://img.shields.io/badge/Turso%20%2F%20libSQL-4FF8D2?style=for-the-badge&logo=turso&logoColor=000000)
@@ -139,6 +143,7 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=000000)
 ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=for-the-badge&logo=precommit&logoColor=000000)
