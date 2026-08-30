@@ -56,7 +56,9 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 | Project | What it does | Stack |
 |---|---|---|
+| **[vol-surface](https://github.com/martex-dev/vol-surface)** | Interactive 3D implied-volatility surface, with the vols solved in-house rather than read from the feed — because put-call parity catches the vendor's own IV column disagreeing with itself by **13 vol points at two years**. It solves against `forward = spot`, ignoring cost of carry; the error cancels at the money, so the ATM term structure looks textbook and the artefact only shows up where a surface is actually read | Python · FastAPI · NumPy · Plotly · React |
 | **[factor-exposure](https://github.com/martex-dev/factor-exposure)** | Regresses a portfolio's monthly excess returns on the five Fama-French factors plus momentum, to answer whether performance is alpha or just cheaply-bought beta. Every loading carries its standard error, t-statistic and 95% interval — a tilt that can't be told apart from zero is drawn hatched rather than reported as a small one, and a low R² is presented as a finding rather than hidden | Python · FastAPI · statsmodels · React |
+| **[roll-yield](https://github.com/martex-dev/roll-yield)** | Measures the roll cost buried inside commodity ETFs — the loss taken every month selling an expiring futures contract to buy a dearer one. UNG bleeds 26%/yr to it, while USO *gained* 17%, so it reports a tailwind as readily as a drag. GLD and SLV hold physical metal and never roll, and come out near zero — a control group that is what makes the other rows believable | Python · FastAPI · pandas · Recharts · React |
 | **[implied-move](https://github.com/martex-dev/implied-move)** · [live ↗](https://implied-move.vercel.app) | Options-implied expected move before earnings. Separates the mean absolute move from a true 1σ, which most calculators quietly conflate — a ~20% understatement of the real band | Next.js · TypeScript |
 | **[market-calendar](https://github.com/martex-dev/market-calendar)** · [live ↗](https://market-calendar-three.vercel.app) | Day-by-day calendar of everything that could move US stocks — FRED macro releases and S&P 500 / Nasdaq-100 earnings, merged into one list ranked by impact | Next.js · TypeScript · Turso |
 
@@ -123,6 +125,7 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![Apache Arrow](https://img.shields.io/badge/Apache%20Arrow-1A6AFF?style=for-the-badge&logo=apachearrow&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/statsmodels-4051B5?style=for-the-badge&logoColor=white)
+![yfinance](https://img.shields.io/badge/yfinance-6001D2?style=for-the-badge&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
@@ -134,6 +137,8 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Turso](https://img.shields.io/badge/Turso%20%2F%20libSQL-4FF8D2?style=for-the-badge&logo=turso&logoColor=000000)
