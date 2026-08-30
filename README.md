@@ -42,7 +42,7 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 <sub>Systems built to production standards rather than demo standards — the ones worth reading the source of. Where one is still being built, it says so.</sub>
 
-**[martex-quant](https://github.com/martex-dev/martex-quant)** — quantitative research platform for crypto &nbsp;<img src="https://img.shields.io/github/stars/martex-dev/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" align="center" />
+**[📈martex-quant](https://github.com/martex-dev/martex-quant)** — quantitative research platform for crypto &nbsp;<img src="https://img.shields.io/github/stars/martex-dev/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" align="center" />
 
 125 pre-registered trials across 120 hypotheses, walk-forward backtesting with realistic fees, deflated-Sharpe validation, Monte Carlo against prop-firm rule sets, paper trading, and an operations dashboard. It says plainly on the tin that it is not a profitable trading bot — **the permanent ledger of every hypothesis that failed is the product**, and the tooling exists to produce more of it.
 
@@ -50,7 +50,9 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 <br/>
 
-**[nullius](https://github.com/martex-dev/nullius)** — an artificial research institution, built so that it can be proven wrong
+**[🔬nullius](https://github.com/martex-dev/nullius)** — an artificial research institution, built so that it can be proven wrong
+
+AI Research civilization 
 
 Multi-agent empirical research carried from hypothesis through preregistration, sandboxed execution, adversarial challenge, independent replication and peer review, into a claim whose every number traces back to a hashed artifact. The norms are enforced as **database invariants rather than prompts**: preregistration is a content hash checked by a foreign key, the test split lives only inside a custodian process, and a `CHECK` constraint makes it impossible for an agent-authored number about the holdout to enter the database at all.
 
