@@ -40,13 +40,23 @@ Work is grouped below by the problem it belongs to. A category appears here once
 
 ### ◆ Flagship
 
-<sub>Long-running systems built to production standards rather than demo standards — the ones worth reading the source of.</sub>
+<sub>Systems built to production standards rather than demo standards — the ones worth reading the source of. Where one is still being built, it says so.</sub>
 
 **[martex-quant](https://github.com/martex-dev/martex-quant)** — quantitative research platform for crypto &nbsp;<img src="https://img.shields.io/github/stars/martex-dev/martex-quant?style=flat-square&labelColor=0D1117&color=D29922" alt="stars" align="center" />
 
 125 pre-registered trials across 120 hypotheses, walk-forward backtesting with realistic fees, deflated-Sharpe validation, Monte Carlo against prop-firm rule sets, paper trading, and an operations dashboard. It says plainly on the tin that it is not a profitable trading bot — **the permanent ledger of every hypothesis that failed is the product**, and the tooling exists to produce more of it.
 
 <sub>`Python` · `Polars` · `ccxt` · `pydantic` — 184 commits · MIT · CI green</sub>
+
+<br/>
+
+**[nullius](https://github.com/martex-dev/nullius)** — an artificial research institution, built so that it can be proven wrong
+
+Multi-agent empirical research carried from hypothesis through preregistration, sandboxed execution, adversarial challenge, independent replication and peer review, into a claim whose every number traces back to a hashed artifact. The norms are enforced as **database invariants rather than prompts**: preregistration is a content hash checked by a foreign key, the test split lives only inside a custodian process, and a `CHECK` constraint makes it impossible for an agent-authored number about the holdout to enter the database at all.
+
+It is scored against structural causal models with known ground truth — including interventions whose true effect is exactly zero — so *"did it reach the right conclusion, and was it appropriately confident?"* is measured rather than judged by one language model reading another's prose. **Its own thesis is falsifiable, and the benchmark is built to be able to say so.**
+
+<sub>`Python` · `SQLAlchemy` · `SciPy` · `Pydantic` · `Typer` — Apache-2.0 · CI green · **in early development**, built in the open against a published plan</sub>
 
 <br/>
 
@@ -142,6 +152,9 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Turso](https://img.shields.io/badge/Turso%20%2F%20libSQL-4FF8D2?style=for-the-badge&logo=turso&logoColor=000000)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=for-the-badge&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <sub>**TESTING, CI & TOOLING**</sub>
 
@@ -149,6 +162,10 @@ Work is grouped below by the problem it belongs to. A category appears here once
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=000000)
+![mypy](https://img.shields.io/badge/mypy-2A6DB2?style=for-the-badge&logoColor=white)
+![Hypothesis](https://img.shields.io/badge/Hypothesis-A020F0?style=for-the-badge&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
+![Typer](https://img.shields.io/badge/Typer-0B7285?style=for-the-badge&logo=typer&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![pre-commit](https://img.shields.io/badge/pre--commit-FAB040?style=for-the-badge&logo=precommit&logoColor=000000)
