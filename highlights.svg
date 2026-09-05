@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1004" height="164" viewBox="0 0 1004 164" role="img" aria-label="Profile highlights">
+  <rect x="0.5" y="0.5" width="1003" height="163" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <text x="28" y="36" fill="#58A6FF" font-size="17" font-weight="700" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif">Highlights</text>
+  
+    <g transform="translate(28,62)">
+      <rect x="0" y="0" width="148" height="84" rx="9" fill="#161B22" stroke="#30363D"/>
+      <text x="74" y="38" fill="#58A6FF" font-size="26" font-weight="700"
+            font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif" text-anchor="middle">17</text>
+      <text x="74" y="62" fill="#8B949E" font-size="12" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif"
+            text-anchor="middle">Repositories</text>
+    </g>
+    <g transform="translate(188,62)">
+      <rect x="0" y="0" width="148" height="84" rx="9" fill="#161B22" stroke="#30363D"/>
+      <text x="74" y="38" fill="#D29922" font-size="26" font-weight="700"
+            font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif" text-anchor="middle">62</text>
+      <text x="74" y="62" fill="#8B949E" font-size="12" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif"
+            text-anchor="middle">Stars</text>
+    </g>
+    <g transform="translate(348,62)">
+      <rect x="0" y="0" width="148" height="84" rx="9" fill="#161B22" stroke="#30363D"/>
+      <text x="74" y="38" fill="#F0883E" font-size="26" font-weight="700"
+            font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif" text-anchor="middle">0</text>
+      <text x="74" y="62" fill="#8B949E" font-size="12" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif"
+            text-anchor="middle">Forks</text>
+    </g>
+    <g transform="translate(508,62)">
+      <rect x="0" y="0" width="148" height="84" rx="9" fill="#161B22" stroke="#30363D"/>
+      <text x="74" y="38" fill="#BC8CFF" font-size="26" font-weight="700"
+            font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif" text-anchor="middle">19</text>
+      <text x="74" y="62" fill="#8B949E" font-size="12" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif"
+            text-anchor="middle">Merged PRs</text>
+    </g>
+    <g transform="translate(668,62)">
+      <rect x="0" y="0" width="148" height="84" rx="9" fill="#161B22" stroke="#30363D"/>
+      <text x="74" y="38" fill="#3FB950" font-size="26" font-weight="700"
+            font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif" text-anchor="middle">332</text>
+      <text x="74" y="62" fill="#8B949E" font-size="12" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif"
+            text-anchor="middle">Commits / yr</text>
+    </g>
+    <g transform="translate(828,62)">
+      <rect x="0" y="0" width="148" height="84" rx="9" fill="#161B22" stroke="#30363D"/>
+      <text x="74" y="38" fill="#58A6FF" font-size="26" font-weight="700"
+            font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif" text-anchor="middle">25</text>
+      <text x="74" y="62" fill="#8B949E" font-size="12" font-family="'Segoe UI',Ubuntu,'Helvetica Neue',Sans-Serif"
+            text-anchor="middle">Followers</text>
+    </g>
+</svg>
